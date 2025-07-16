@@ -12,8 +12,8 @@
     margin: auto;
     padding: 20px;
     line-height: 1.7;
-    background: linear-gradient(135deg, #e0eafc, #cfdef3);
-    color: #333;
+    background-color: #0e1624; /* Dark navy background */
+    color: #e0e0e0; /* Light text */
   }
   header {
     text-align: center;
@@ -23,37 +23,40 @@
     width: 190px;
     border-radius: 50%;
     margin-top: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   }
   h1 {
     margin-bottom: 5px;
     font-size: 2em;
-    color: #2c3e50;
+    color: #ffffff;
   }
   .links {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .links a {
-    margin: 0 10px;
+    margin: 0 12px;
     text-decoration: none;
-    color: #3366cc;
+    color: #00d8d6; /* Teal accent */
     font-weight: 500;
   }
+  .links a:hover {
+    color: #9f7aea; /* Purple hover */
+  }
   section {
-    background: rgba(255,255,255,0.95);
+    background: #1c2431; /* Dark card background */
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     transition: transform 0.2s ease;
   }
   section:hover {
     transform: translateY(-2px);
   }
   h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #ddd;
+    color: #ffffff;
+    border-bottom: 2px solid #333;
     padding-bottom: 6px;
     margin-top: 0;
   }
@@ -73,14 +76,17 @@
     width: 240px;
     border-radius: 12px;
     flex-shrink: 0;
-    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
   }
   .about-text {
     flex: 1;
     min-width: 300px;
   }
+  a {
+    color: #00d8d6;
+  }
   a:hover {
-    text-decoration: underline;
+    color: #9f7aea;
   }
 </style>
 </head>
@@ -89,9 +95,10 @@
 <header>
   <h1>Karen Paco Mendivil</h1>
   <p>Houston, TX | karenpaco33 (at) gmail.com</p>
+  <img src="photo.jpg" alt="Profile Photo" class="profile-pic">
   <div class="links">
-    <a href="cv.pdf">CV</a> |
-    <a href="https://www.linkedin.com/in/karen-paco-434063171/">LinkedIn</a> |
+    <a href="cv.pdf">CV</a>
+    <a href="https://www.linkedin.com/in/karen-paco-434063171/">LinkedIn</a>
     <a href="https://github.com/karenpaco">GitHub</a>
   </div>
 </header>
@@ -136,7 +143,11 @@
   </ul>
 </section>
 
-<!-- You can copy and paste your other sections below -->
+<!-- You can paste additional sections here -->
+
+</body>
+</html>
+
 
 </body>
 </html>
