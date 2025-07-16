@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Karen Paco Mendivil </title>
-  <style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Karen Paco Mendivil</title>
+<style>
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px; /* smaller font */
-    max-width: 900px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
-    line-height: 1.6;
-    background-color: #f9f9f9;
+    line-height: 1.7;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
     color: #333;
   }
   header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   .profile-pic {
-    width: 180px; /* increase header image size */
+    width: 190px;
     border-radius: 50%;
     margin-top: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   }
   h1 {
     margin-bottom: 5px;
+    font-size: 2em;
+    color: #2c3e50;
   }
   .links {
     text-align: center;
     margin-top: 10px;
   }
   .links a {
-    margin: 0 8px;
+    margin: 0 10px;
     text-decoration: none;
     color: #3366cc;
+    font-weight: 500;
   }
   section {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.95);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  section:hover {
+    transform: translateY(-2px);
   }
   h2 {
-    color: #444;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 5px;
+    color: #2c3e50;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
     margin-top: 0;
   }
   ul {
@@ -55,30 +63,33 @@
   li {
     margin-bottom: 10px;
   }
-  /* About section styling */
   .about-container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 20px;
+    gap: 25px;
   }
   .about-container img {
-    width: 200px; /* larger image in About Me */
-    border-radius: 8px;
+    width: 240px;
+    border-radius: 12px;
     flex-shrink: 0;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
   }
   .about-text {
     flex: 1;
-    min-width: 250px;
+    min-width: 300px;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 </style>
-
 </head>
 <body>
 
 <header>
   <h1>Karen Paco Mendivil</h1>
   <p>Houston, TX | karenpaco33 (at) gmail.com</p>
+  <img src="photo.jpg" alt="Profile Photo" class="profile-pic">
   <div class="links">
     <a href="cv.pdf">CV</a> |
     <a href="https://www.linkedin.com/in/karen-paco-434063171/">LinkedIn</a> |
@@ -107,15 +118,6 @@
   </div>
 </section>
 
-<!-- KEEP ALL OTHER SECTIONS BELOW AS THEY ARE -->
-<!-- For brevity I will stop here, but keep your Research Interests, Education, Publications, etc exactly as before -->
-
-</body>
-</html>
-
-
-
-
 <section>
   <h2>Research Interests</h2>
   <ul>
@@ -134,6 +136,12 @@
     <li><strong>B.Eng. in Biotechnology Engineering</strong>, Universidad Católica de Santa María, Peru</li>
   </ul>
 </section>
+
+<!-- You can copy and paste your other sections below -->
+
+</body>
+</html>
+
 
 <section>
   <h2>Publications</h2>
